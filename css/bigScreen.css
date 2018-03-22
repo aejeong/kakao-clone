@@ -1,0 +1,33 @@
+.bigScreenText{
+  font-size: 15px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top : 0;
+  left:0;
+  background-color: #ffe94a;
+  z-index: 3;
+  color : #523737;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+  animation: 1s showscreen ease-in-out;
+}
+
+@keyframes showscreen {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.bigScreenText i {
+    color : #523737;
+    padding-bottom: 10px;
+  }
